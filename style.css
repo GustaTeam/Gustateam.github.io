@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.texto {
+    color:white
+}
+
+header{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Fundo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header .menu{
+    padding:40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .menu li{
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+header .menu a{
+    padding: 8px 12px;
+    color:white;
+    border-radius: 10px;
+
+}
+
+.ativo, header li:hover{
+    background-color: black;
+    transition: 500ms;
+    
+}
